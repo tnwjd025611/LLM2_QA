@@ -1,0 +1,11 @@
+cuda_devices : 0,1,2,3
+num_cuda_devices : 4
+port : 29400
+base_path : ./
+seed_data_path : ./data/seed/ecg_0.01.json
+steps: 10
+grad_acc_steps : 32
+instructions_per_seed_task : 1
+generation_model : llama3:70b
+base_model : google/gemma-2b # mistralai/Mistral-7B-Instruct-v0.2
+epochs : 3
